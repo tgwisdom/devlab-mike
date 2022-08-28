@@ -4,8 +4,13 @@
   "description": "",
   "main": "hello-node.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node hello-node.js"
   },
+    "engines": {
+      "node": "16.x" ,
+      "npm":  "8.x"
+    },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tgwisdom/devlab-mike.git"

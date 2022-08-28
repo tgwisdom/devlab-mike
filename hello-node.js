@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const path = require('node:path')
 
-console.log("hello from node");
+console.log("Node *waves* ");
 
 app.get('/', function (req, res) {  // middleware?
  // res.send('<h2>Hello World from Express<h2>')
